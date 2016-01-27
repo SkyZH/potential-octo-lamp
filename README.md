@@ -10,4 +10,3 @@ Data Source: [1,000 most common US English words](https://gist.github.com/deekay
 
     chmod +x main.py
     ./main.py --input wiki-100k.txt --output words.py
-    ./main.py --input wiki-100k.txt --output words.py
