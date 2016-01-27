@@ -17,9 +17,9 @@ out_file.write("words = [\n")
 words = [word[:-1] for word in in_file.readlines()]
 for data in words[:-1]:
     if not(data.startswith("#!")):
-        out_file.write("\"" + data + "\"")
+        out_file.write("    \"" + data + "\"")
         out_file.write(",\n")
-out_file.write("\"" + words[-1] + "\"")
+out_file.write("    \"" + words[-1] + "\"")
 out_file.write("\n]\n")
 
 in_file.close()
